@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-exemple
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+argumentos:
+  value1: "qa1"
+  value2: "qa2"

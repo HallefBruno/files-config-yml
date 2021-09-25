@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-exemple
+    
+  profiles:
+    active: native
+      
+server:
+  port: 8888
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+argumentos:
+  value1: "value1"
+  value2: "value2"
+  
+ 
