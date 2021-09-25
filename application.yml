@@ -1,21 +1,16 @@
+server:
+  port: 8080
 spring:
   application:
-    name: spring-exemple
-    
-  profiles:
-    active: native
-      
-server:
-  port: 8888
-
+    name: servico-file-config
+service-parametro:
+  parametro1: "Olá"
+  parametro2: "Mundo"
 management:
   endpoints:
     web:
       exposure:
-        include: "*"
-
-argumentos:
-  value1: "value1"
-  value2: "value2"
+        include:
+        - '*'
   
  
