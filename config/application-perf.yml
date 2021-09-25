@@ -1,13 +1,15 @@
+
+server:
+  port: 8080
 spring:
   application:
-    name: spring-exemple
-
+    name: servico-file-config
+service-parametro:
+  parametro1: "perf"
+  parametro2: "perf"
 management:
   endpoints:
     web:
       exposure:
-        include: "*"
-
-argumentos:
-  value1: "perf1"
-  value2: "perf2"
+        include:
+        - '*'
