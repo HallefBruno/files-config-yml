@@ -5,7 +5,7 @@ spring:
   application:
     name: servico-file-config
 service-parametro:
-  parametro1: "dev"
+  parametro1: "desenvolvimento"
   parametro2: "dev"
 management:
   endpoints:
